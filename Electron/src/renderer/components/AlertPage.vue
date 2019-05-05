@@ -26,6 +26,8 @@
       }
     },
     created () {
+      const window = remote.getCurrentWindow()
+      window.show()
       this.audio = new Audio('http://soundbible.com/mp3/Loud_Alarm_Clock_Buzzer-Muk1984-493547174.mp3')
       this.audio.volume = 0.2
       this.audio.play()

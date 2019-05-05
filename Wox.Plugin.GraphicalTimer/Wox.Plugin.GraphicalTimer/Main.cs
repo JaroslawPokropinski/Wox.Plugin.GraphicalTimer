@@ -22,7 +22,7 @@ namespace Wox.Plugin.GraphicalTimer
                     new Result
                     {
                         Title = $"Bad time format",
-                        IcoPath = "timeIcon.png",
+                        IcoPath = "icon.png",
                         Action = _ =>
                         {
                             return true;
@@ -38,7 +38,7 @@ namespace Wox.Plugin.GraphicalTimer
                 new Result
                 {
                     Title = $"Set timer for {groups[1].Value}m {sec}s",
-                    IcoPath = "timeIcon.png",
+                    IcoPath = "icon.png",
                     Action = _ =>
                     {
                         var process = new Process
